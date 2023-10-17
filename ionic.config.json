@@ -1,0 +1,7 @@
+{
+  "name": "soul-smart-home",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
