@@ -8,11 +8,20 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+  <div class="all">
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+    <div class="card" [routerLink]="['/login-tuya']">
+      <div class="cardP1">
+        <div class="icon-area"><ion-icon name="cloud-outline"></ion-icon></div>
+        <div class="texts">
+          <span class="text1">Tuya Smart</span>
+          <span class="text2">{{tuyaEnable == true ? 'Conectado' : 'Desconectado'}}</span>
+        </div>
+      </div>
+      <ion-icon class="rightIcon" name="chevron-forward-outline"></ion-icon>
+    </div>
+
+  </div>
+
 </ion-content>

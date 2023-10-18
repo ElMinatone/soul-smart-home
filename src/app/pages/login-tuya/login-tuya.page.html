@@ -1,0 +1,21 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <ion-icon slot="start" name="arrow-back-outline" class="iconBack" (click)="backPage()"></ion-icon>
+    <ion-title>Login Tuya</ion-title>
+  </ion-toolbar>
+  <div class="shadowHeader"></div>
+</ion-header>
+
+<ion-content [fullscreen]="true" [formGroup]="form">
+
+  <ion-item>
+    <ion-input label="E-Mail" labelPlacement="floating" placeholder="E-Mail" formControlName="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="Senha" labelPlacement="floating" type="password" placeholder="Senha" formControlName="password"></ion-input>
+  </ion-item>
+
+  <ion-button expand="block" class="btnLogin" (click)="login()">Login</ion-button>
+
+</ion-content>

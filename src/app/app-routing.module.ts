@@ -5,7 +5,11 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+  },  {
+    path: 'login-tuya',
+    loadChildren: () => import('./pages/login-tuya/login-tuya.module').then( m => m.LoginTuyaPageModule)
   }
+
 ];
 @NgModule({
   imports: [
