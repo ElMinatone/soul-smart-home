@@ -23,16 +23,23 @@ ion-tab-bar {
     justify-content: center;
     align-items: center;
     border-radius: 17px;
-    background-color: #f5f6fa;
-    color: #000000;
+    background-color:transparent;
+    color: #556F77;
     font-size: 24px;
     transition: 0.2s;
 }
 
 .bbar-item:active {
-    background-color: #E1E3EC;
+    color: white;
 }
 
 .router-link-active {
-    background-color: #E1E3EC;
+    color: white;
+    --ionicon-stroke-width: 40px;
+}
+
+.menunavegacao {
+  background-color: #1B4A54;
+  //make shadow
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }

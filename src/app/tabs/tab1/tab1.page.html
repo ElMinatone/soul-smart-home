@@ -1,14 +1,14 @@
-<ion-header [translucent]="true" class="ion-no-border">
+<!-- <ion-header [translucent]="true" class="ion-no-border">
   <ion-toolbar>
     <ion-title>
       Home
     </ion-title>
   </ion-toolbar>
-  <div class="shadowHeader"></div>
-</ion-header>
+  <div></div>
+</ion-header> -->
 
 <ion-content [fullscreen]="true">
-  
+
   <div *ngFor="let item of devicesTuya">
     <ion-button *ngIf="item.ha_type != 'scene'" (click)="switchOnOff(item)">{{item.name}}</ion-button>
   </div>

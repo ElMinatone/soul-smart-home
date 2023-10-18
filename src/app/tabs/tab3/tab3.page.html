@@ -1,19 +1,19 @@
-<ion-header [translucent]="true" class="ion-no-border">
+<!-- <ion-header [translucent]="true" class="ion-no-border">
   <ion-toolbar>
     <ion-title>
       Integrações
     </ion-title>
   </ion-toolbar>
   <div class="shadowHeader"></div>
-</ion-header>
+</ion-header> -->
 
-<ion-content [fullscreen]="true">
-  
+<ion-content [fullscreen]="true" class="fundo">
+
   <div class="all">
 
     <div class="card" [routerLink]="['/login-tuya']">
       <div class="cardP1">
-        <div class="icon-area"><ion-icon name="cloud-outline"></ion-icon></div>
+        <div class="icon-area"><ion-icon name="cloud"></ion-icon></div>
         <div class="texts">
           <span class="text1">Tuya Smart</span>
           <span class="text2">{{tuyaEnable == true ? 'Conectado' : 'Desconectado'}}</span>

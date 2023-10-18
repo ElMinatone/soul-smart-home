@@ -1,3 +1,16 @@
 ion-content {
-    --background: #fff;
+  --background: rgb(14,54,65);
+  --background: linear-gradient(8deg, rgba(14,54,65,1) 14%, rgba(8,48,59,1) 50%, rgba(34,73,84,1) 84%);
+}
+
+ion-no-border {
+  background-color: transparent;
+  color: transparent;
+}
+
+.sombrinha {
+    background-color: transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
