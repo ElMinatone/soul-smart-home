@@ -1,11 +1,42 @@
 ion-content {
   --background: rgb(14,54,65);
+  display: inline;
   --background: linear-gradient(8deg, rgba(14,54,65,1) 14%, rgba(8,48,59,1) 50%, rgba(34,73,84,1) 84%);
 }
 
 ion-no-border {
   background-color: transparent;
   color: transparent;
+}
+
+.header{
+ --background-color: transparent;
+}
+
+ion-button {
+  --border-radius: 15%;
+  width: 45%;
+  height: 175px;
+  margin: 8px;
+  margin-bottom: -1px;
+}
+
+.button1 {
+  --background: rgb(55,115,218);
+  --background: linear-gradient(145deg, rgba(55,115,218,1) 8%, rgba(90,244,154,1) 97%);
+  position: relative;
+}
+
+.button1::before {
+  background-image: url("/assets/icon/fundoicons.png");
+  opacity: 0.05; /* Defina a opacidade desejada para a imagem de fundo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+.button-2 {
 }
 
 .sombrinha {
